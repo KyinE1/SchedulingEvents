@@ -1,7 +1,7 @@
 public class Event {
-	private Date date;			// Date of event.
-	private int start;			// Start time/hour of event (0-23).
-	private int end;			// End time/hour of event (0-23).
+	private Date date;		// Date of event.
+	private int start;		// Start time/hour of event (0-23).
+	private int end;		// End time/hour of event (0-23).
 	private String description;	// A description of the event.
 
 	/** Parameterized constructor; start hour should be <= end hour. */
@@ -16,7 +16,7 @@ public class Event {
 		this.description = description;
 	}
 
-	/**	Accessor methods. */
+	/** Accessor methods. */
 	public Date getDate() {
 		return date;
 	}
@@ -51,7 +51,7 @@ public class Event {
 		return convert;
 	}
 
-	/**	Compare if two event objects are the same.
+	/** Compare if two event objects are the same.
 	 *
 	 * @param obj: Object properties to compare to.
 	 * @return: True if both objects have the same date
