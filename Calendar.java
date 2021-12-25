@@ -1,5 +1,5 @@
 public class Calendar {
-	static final int MAXEVENTS = 4;	// Max number of events.
+	static final int MAXEVENTS = 4;		// Max number of events.
 	private Event[] events;			// Holds scheduled events of size MAXEVENTS.
 	private int numEvents;			// Number of events currently scheduled.
 	
@@ -32,7 +32,7 @@ public class Calendar {
 		return true;
 	} 
 
-	/**	Find specified event.
+	/** Find specified event.
 	 *
 	 * @param e: The event to find.
 	 * @return: Indexed position of the event.
@@ -52,7 +52,7 @@ public class Calendar {
 		return -1;
 	} 
 
-	/**	Remove the event from the array.
+	/** Remove the event from the array.
 	 *
 	 * @param e: The event to remove.
 	 * @return: True if successful removal.
